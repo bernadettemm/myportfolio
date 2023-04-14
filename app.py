@@ -26,7 +26,7 @@ lottie_girl = load_lottieurl("https://assets9.lottiefiles.com/packages/lf20_toup
 #img_contact_form = Image.open("images/cloth3.jpg")
 project1 = Image.open("images/covid.webp")
 project2 = Image.open("images/exdashboard.webp")
-project3 = Image.open("images/afya.webp")
+project3 = Image.open("images/airbnb.webp")
 
 
 #----HEADER SECTION ------
@@ -103,16 +103,17 @@ with st.container():
     with image_column:
          st.image(project3) 
     with text_column:
-         st.subheader("Web Development")
+         st.subheader("AirBnB trends Tableau Dashboard")
          st.write(
              """
-             Designed and developed the website for Afya Intelligence, a healthcare technology company. The website showcases the 
-             company's services and success stories in a modern and user-friendly format, and is optimized for search engines. Deployed 
-             google analytics for traffic monitoring.
-             
+              This project involved the creation of a Tableau dashboard that provides 
+              insights for individuals who are considering investing in AirBnb. The dashboard 
+              visualizes various data points such as average daily rate, occupancy rate, and demand 
+              for AirBnb.  (The project was for learning purposes and the Data used is from the US available in Kaggle and hence may not be applicable in other places).
+
              """
          )
-         st.markdown("[View Project...](https://github.com/bernadettemm/data-analysis-projects/blob/main/Excel%20Dashboard.xlsx)")
+         st.markdown("[View Project...](https://github.com/bernadettemm/data-analysis-projects/blob/main/AirBnB%20Tableau%20Project.twb)")
 
 # --- CONTACT ---
 with st.container():
