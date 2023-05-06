@@ -96,9 +96,9 @@ with st.container():
          st.subheader("TABIRI - Heart Disease Predicting mobile application")
          st.write(
              """
-             Developed a Tanzanian customized mobile application called TABIRI, using the Flutter framework that predicts the likelihood of an individual to have heart diseases.
+             Developing a Tanzanian customized mobile application called TABIRI as my final year project, using the Flutter framework that predicts the likelihood of an individual to have heart diseases.
              Using a specially trained machine learning model based on linear regression, the application provides accurate predictions of heart disease 
-             with an impressive accuracy rate of approximately 80%. (The interface is still in progress) 
+             with an impressive accuracy rate of approximately 80%. (This project is still in progress ) 
              """
          )
          st.markdown("[View Project...](https://github.com/bernadettemm/tabiri)")
