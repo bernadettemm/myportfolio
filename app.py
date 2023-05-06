@@ -27,12 +27,15 @@ lottie_girl = load_lottieurl("https://assets9.lottiefiles.com/packages/lf20_toup
 project1 = Image.open("images/covid.webp")
 project2 = Image.open("images/exdashboard.webp")
 project3 = Image.open("images/airbnb.webp")
+project4 = Image.open("images/afya.webp")
+project5 = Image.open("images/tabiri.webp")
+project6 = Image.open("images/trabtrat.webp")
 
 
 #----HEADER SECTION ------
 with st.container():
     st.subheader("Hi, I am Bernadette :wave:")
-    st.title("I am a Data Scientist with extended interest towards Cybersecurity")
+    st.title("I am a Data Scientist and AI enthusiast")
     
 
 # Define the HTML code for the social media icons
@@ -57,8 +60,8 @@ with st.container():
             Welcome to my portfolio page! I am a data scientist with a passion for analyzing complex 
             data sets to uncover insights and drive business decisions. In addition to my data science skills, 
             I also have a keen interest in Cybersecurity and enjoy staying up-to-date with the latest trends and techniques in the field. 
-            With a strong background in statistics, machine learning, and data visualization, I'm able to tackle a wide range of analytical 
-            problems and present my findings in a clear and compelling way. 
+            With a strong background in statistics, Artificial Intelligence, and data visualization, I'm able to tackle a wide range of real world problems
+            and present innovative and data-driven solutions in a clear and complelling way. 
             Take a look at my projects and feel free to contact me if you'd like to learn more about my work!
               
             """
@@ -71,6 +74,35 @@ with st.container():
 with st.container():
     st.write("---")
     st.header("My Projects")
+    image_column, text_column = st.columns((1, 2))
+    with image_column:
+         st.image(project4) 
+    with text_column:
+         st.subheader("AI Chatbot embedded Website")
+         st.write(
+             """
+             
+              Developed a comprehensive website for a healthcare company, which included the integration of a 
+              conversational AI chatbot to enhance user experience and engagement. 
+             
+             """
+         )
+         st.markdown("[View Project...](https://afyaintelligence.co.tz/)")
+with st.container():
+    image_column, text_column = st.columns((1, 2))
+    with image_column:
+         st.image(project5) 
+    with text_column:
+         st.subheader("TABIRI - Heart Disease Predicting mobile application")
+         st.write(
+             """
+             Developed a Tanzanian customized mobile application called TABIRI, using the Flutter framework that predicts the likelihood of an individual to have heart diseases.
+             Using a specially trained machine learning model based on linear regression, the application provides accurate predictions of heart disease 
+             with an impressive accuracy rate of approximately 80%. (The interface is still in progress) 
+             """
+         )
+         st.markdown("[View Project...](https://github.com/bernadettemm/tabiri)")
+with st.container():
     image_column, text_column = st.columns((1, 2))
     with image_column:
          st.image(project1) 
@@ -114,6 +146,22 @@ with st.container():
              """
          )
          st.markdown("[View Project...](https://github.com/bernadettemm/data-analysis-projects/blob/main/AirBnB%20Tableau%20Project.twb)")
+
+with st.container():
+    image_column, text_column = st.columns((1, 2))
+    with image_column:
+         st.image(project6) 
+    with text_column:
+         st.subheader("TrabTrat Finance App")
+         st.write(
+             """
+              This is a MERN finance dashboard with Machine learning predictions. The data used is from open data sources of a fictional company.
+  
+             """
+         )
+         st.markdown("[View Project...](https://github.com/bernadettemm/TrabTrat)")
+
+
 
 # --- CONTACT ---
 with st.container():
