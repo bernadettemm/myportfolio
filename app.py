@@ -101,7 +101,7 @@ with st.container():
              with an impressive accuracy rate of approximately 80%. (This project is still in progress ) 
              """
          )
-         st.markdown("[View Project...](https://github.com/bernadettemm/tabiri)")
+         st.markdown("[View Project...](https://github.com/bernadettemm/tabiri-final-project)")
 with st.container():
     image_column, text_column = st.columns((1, 2))
     with image_column:
